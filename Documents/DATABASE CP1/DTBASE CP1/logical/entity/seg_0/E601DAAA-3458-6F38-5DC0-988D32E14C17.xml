@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E601DAAA-3458-6F38-5DC0-988D32E14C17" name="T_PLANO DE SAUDE">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:21:53 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_fantasia" id="D9F3B9BB-B1B7-50F7-6952-0EA7EF830455">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:22:15 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_rzsocial" id="77B09D8C-5BE6-A020-800E-346C0C1F2A2A">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:22:37 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="1FFAFF45-83D5-3699-8507-8FF596840008">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:22:59 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="7E8509A2-0A52-7A5C-3CD1-AD9D0045A4F8">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:23:26 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contato" id="532EE085-1941-DAFB-4EBF-0E2EFA7EDC60">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 20:01:06 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D802253-3AEE-2BA3-7A56-DB189A858328" name="T_PLANO DE SAUDE PK">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 20:02:32 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1FFAFF45-83D5-3699-8507-8FF596840008</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

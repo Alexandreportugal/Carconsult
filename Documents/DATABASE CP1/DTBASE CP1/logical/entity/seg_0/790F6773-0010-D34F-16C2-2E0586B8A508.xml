@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="790F6773-0010-D34F-16C2-2E0586B8A508" name="T_SIP_PLANO DE SAUDE">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:20:33 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dt_inicio" id="6425060D-26E2-2996-1052-FDBE61317C91">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:20:45 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="9883F46A-D69B-577B-0D9D-38A6B6405298">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:21:01 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_descricao" id="A2D1C054-E5F5-7D5C-4064-0799A129084F">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:21:18 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="2F4AE98C-F223-4AB3-D993-4FABBF1235F6">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 20:20:45 UTC</createdTime>
+<generatorID>E65AB819-6CAA-4AE0-A970-4A64161DE663</generatorID>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<referedAttribute>22DEE4D1-CEE6-D070-D2F7-03E3888BF092</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

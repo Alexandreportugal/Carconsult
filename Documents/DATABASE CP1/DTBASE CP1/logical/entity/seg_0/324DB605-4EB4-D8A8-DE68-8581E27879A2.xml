@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="324DB605-4EB4-D8A8-DE68-8581E27879A2" name="T_CONT_EMERGENCIA">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:15:47 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_contato" id="540E2245-BB8D-F753-07E8-03C9E2F70BF3">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:16:04 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="281F3F4E-3065-2C37-E8BB-B253A40CDF61">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:16:25 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_tipo_contato" id="2F420E44-DF41-F06C-3006-EC7DE9266249">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 19:16:38 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="C0895FB1-3585-340B-CA2A-167AA61BA622">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 20:04:30 UTC</createdTime>
+<generatorID>2D77EEB2-D4BC-E0B7-A102-13A8EDE23E25</generatorID>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<referedAttribute>22DEE4D1-CEE6-D070-D2F7-03E3888BF092</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="334BCCE6-C7DB-7288-12D4-E1B4FDF02DF9" name="T_CONT_EMERGENCIA PK">
+<createdBy>alexandreportugal</createdBy>
+<createdTime>2023-04-16 20:03:28 UTC</createdTime>
+<ownerDesignName>DTBASE CP1</ownerDesignName>
+<engineerTo>
+<item key="8C6275EF-08D5-7068-C0B8-2006A2E03161" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>540E2245-BB8D-F753-07E8-03C9E2F70BF3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
