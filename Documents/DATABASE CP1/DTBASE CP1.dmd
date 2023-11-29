@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DTBASE CP1" id="1FBFF375-3043-0F38-8699-CBCCCFFC2EAC" version="3.5">
-<createdBy>alexandreportugal</createdBy>
-<createdTime>2023-04-16 18:57:16 UTC</createdTime>
-<ownerDesignName>DTBASE CP1</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>1FBFF375-3043-0F38-8699-CBCCCFFC2EAC</designId>
-</OSDM_Design>

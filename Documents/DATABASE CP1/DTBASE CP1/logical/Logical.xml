@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C4B979AD-E3CA-AAF5-7DB8-BBAD30E4E4D5" mainViewID="A3E245AA-DBC7-CCEB-8DC2-834DD74D886B">
-<createdBy>alexandreportugal</createdBy>
-<createdTime>2023-04-16 18:57:16 UTC</createdTime>
-<ownerDesignName>DTBASE CP1</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
